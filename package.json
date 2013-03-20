@@ -3,12 +3,16 @@
 	"description": "ESR Calculator for Swiss Payment Slips",
 	"version": "0.0.1-dev",
 	"author": "Andreas F. Bobak <afb@osares.com>",
+	"scripts": {
+		"test": "buster test"
+	},
+	"main": "./lib/esr.js",
 	"dependencies": {},
 	"devDependencies": {
 		"buster": "0.6.x",
 		"buster-lint": "0.3.x"
 	},
 	"engines": {
-		"node": "0.8.x"
+		"node": "~0.8.0"
 	}
 }
