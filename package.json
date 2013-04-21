@@ -2,7 +2,8 @@
 	"name": "esr",
 	"description": "ESR Calculator for Swiss Payment Slips",
 	"version": "0.0.1-dev",
-	"author": "Andreas F. Bobak <afb@osares.com>",
+	"author": "Andreas F. Bobak <bobak@abstrakt.ch>",
+	"license": "BSD",
 	"scripts": {
 		"test": "buster test"
 	},
